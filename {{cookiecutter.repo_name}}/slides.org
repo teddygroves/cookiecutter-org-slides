@@ -35,4 +35,7 @@ Indeed!
 
 
 * References
+:PROPERTIES:
+:allowframebreaks:
+:END:
 
