@@ -1,0 +1,38 @@
+#+TITLE: {{cookiecutter.presentation_title}}
+#+AUTHOR: {{cookiecutter.author_name}}
+#+DATE: {% now 'local', '%Y-%m-%d' %}
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger,unknownkeysallowed,aspectratio=169,colorblocks]
+#+startup: beamer
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+
+* Example slide
+I am an example slide
+
+* Example slide with citation
+Here's a citation: [cite:@albertyThermodynamicsBiochemicalReactions2003].
+
+* Example slide with image
+Here's an image with a caption
+
+#+CAPTION: I have a caption
+[[./img/example-image.svg]]
+
+* Example slide with columns
+#+begin_columns
+
+#+attr_html: :width 50%
+#+begin_column
+There are columns!
+#+end_column
+
+#+attr_html: :width 50%
+#+begin_column
+Indeed!
+#+end_column
+
+#+end_columns
+
+
+* References
+
